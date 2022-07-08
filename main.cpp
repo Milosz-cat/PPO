@@ -1,0 +1,52 @@
+#include "GUI.h"
+
+
+using namespace std;
+
+int main() {
+
+    Person* person = NULL;
+
+    Attendance_list* list = NULL;
+
+    GUI(person, list); // GUI- Graphical User Interface
+
+    return 0;
+}
+
+
+
+
+/* Przykladowe nr PESEL
+73112084448
+82041324819
+95121897338
+54100561864
+87071869642
+00211486981
+85102375784
+00261716474
+79051645535
+72123028799
+
+Spanish
+75384537J
+82380136R
+60182546X
+85458402Q
+34066769C
+
+Portugal
+25534512
+23456798
+34563422
+45675398
+98765490
+87643289
+
+Canada
+782-759-906
+811-669-241
+337-825-574
+244-823-126
+*/
